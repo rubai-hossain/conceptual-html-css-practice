@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    height: 100vh;
+    background-image: url('./images/anand-thakur-y0dSeflqUWo-unsplash.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 99% 80%, 50% 100%, 0 80%, 0 0);
+}
+
+.head h1{
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: cursive;
+    font-weight: 900;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
