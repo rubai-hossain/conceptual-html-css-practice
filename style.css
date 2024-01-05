@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .head{
@@ -20,4 +22,44 @@
     letter-spacing: 10px;
     text-align: center;
     padding-top: 50px;
+}
+
+.content, .cow-type{
+    width: 80%;
+    background-image: linear-gradient(10deg, pink, rgb(122, 122, 244), red);
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.content h2, .cow-type h2{
+    font-size: 30px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.content p{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.cow-images div{
+    width: 300px;
+}
+
+.cow-images img{
+    width: 100%;
 }
